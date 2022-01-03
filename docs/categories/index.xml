@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mekeni Piano</title>
-    <link>https://mekeni-piano.github.io/categories/</link>
+    <link>https://mekeni-piano.github.io/mekeni-piano-website/categories/</link>
     <description>Recent content in Categories on Mekeni Piano</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>©Mekeni Piano 2021</copyright><atom:link href="https://mekeni-piano.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>©Mekeni Piano 2021</copyright><atom:link href="https://mekeni-piano.github.io/mekeni-piano-website/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
