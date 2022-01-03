@@ -1,8 +1,8 @@
 {
-    "name": "portfolio",
+    "name": "mekeni-piano-website",
     "version": "1.0.0",
     "main": "index.js",
-    "repository": "git@github.com:allanchristiancarlos/allanchristiancarlos.github.io.git",
+    "repository": "git@github.com:mekeni-piano/mekeni-piano-website.git",
     "author": "Allan Christian Carlos <allanchristiancarlos@gmail.com>",
     "license": "MIT",
     "devDependencies": {
