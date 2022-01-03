@@ -3,6 +3,6 @@ languageCode="en-us"
 title="Mekeni Piano"
 theme="ananke"
 paginate=2
-Copyright="Mekeni Piano"
+Copyright="MekeniPiano"
 canonifyurls=true
 publishDir="docs"
