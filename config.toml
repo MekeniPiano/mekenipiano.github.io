@@ -1,8 +1,8 @@
 baseurl="https://allanchristiancarlos.github.io/"
 languageCode="en-us"
-title="Allan Christian Carlos (2021) | Software Engineer"
-theme="hugo-theme-hello-friend-ng"
+title="Mekeni Piano"
+theme="ananke"
 paginate=2
-Copyright="©allanchristiancarlos 2021"
+Copyright="©Mekeni Piano 2021"
 canonifyurls=true
 publishDir="docs"
