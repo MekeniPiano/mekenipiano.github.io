@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:allanchristiancarlos/allanchristiancarlos.github.io.git",
+  "author": "Allan Christian Carlos <allanchristiancarlos@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^7.0.4"
+  },
+  "scripts": {
+    "hugo": "hugo",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "prettier": "^2.5.0",
+    "pretty-quick": "^3.1.2"
+  }
+}
