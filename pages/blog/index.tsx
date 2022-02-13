@@ -11,12 +11,6 @@ const Blog: NextPage<{posts: any[]}> = ({posts}) => {
   
   return (
     <>
-      <Head>
-        <title>Blog</title>
-      </Head>
-      <Link as={ROUTES.home()} href={ROUTES.home()}>
-        <a>Home</a>
-      </Link>
       <ul>
         {posts.map((x, i) => (
           <li key={i}>
@@ -32,7 +26,7 @@ const Blog: NextPage<{posts: any[]}> = ({posts}) => {
 
 export async function getStaticProps() {
   const posts =  getAllPosts(["title", "slug"]);
-  return {props: {posts}}
+  return {props: {posts, title: 'Blog'}}
 }
 
 export default Blog;

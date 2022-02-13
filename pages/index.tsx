@@ -4,9 +4,20 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-   <>
-   Home</>
+    <>
+   {/* <>
+   Home
+   </> */}
+    </>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      title: 'Home'
+    }
+  }
 }
 
 export default Home

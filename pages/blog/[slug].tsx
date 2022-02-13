@@ -14,16 +14,7 @@ export default function Post({ post, morePosts, preview }: any) {
   }
   return (
     <>
-      <Head>
-        <title>{post.title}</title>
-      </Head>
       <article>
-        <Link as={ROUTES.home()} href={ROUTES.home()}>
-          <a>Home</a>
-        </Link> | &nbsp;
-        <Link as={ROUTES.blog()} href={ROUTES.blog()}>
-          <a>Blog</a>
-        </Link>
         <h1>{post.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.content }}></div>
       </article>
@@ -49,6 +40,7 @@ export async function getStaticProps({ params }: any) {
         ...post,
         content,
       },
+      title: post.title
     },
   };
 }
