@@ -16,6 +16,11 @@ export default function Header() {
             <a>Blog</a>
           </Link>
         </li>
+        <li>
+          <Link as={ROUTES.chart()} href={ROUTES.chart()}>
+            <a>Chart</a>
+          </Link>
+        </li>
       </ul>
     </div>
   );
