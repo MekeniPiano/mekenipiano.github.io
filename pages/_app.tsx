@@ -5,7 +5,7 @@ import {ThemeProvider} from 'next-themes'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider>
+    <ThemeProvider enableColorScheme>
       <Layout title={pageProps.title}>
         <Component {...pageProps} />
       </Layout>
