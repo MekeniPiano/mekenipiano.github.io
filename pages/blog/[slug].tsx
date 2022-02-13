@@ -4,6 +4,8 @@ import ErrorPage from "next/error";
 import { getPostBySlug, getAllPosts } from "../../lib/api";
 import Head from "next/head";
 import markdownToHtml from "../../lib/markdownToHtml";
+import Link from "next/link";
+import { ROUTES } from "../../lib/routes";
 
 export default function Post({ post, morePosts, preview }: any) {
   const router = useRouter();
@@ -16,6 +18,12 @@ export default function Post({ post, morePosts, preview }: any) {
         <title>{post.title}</title>
       </Head>
       <article>
+        <Link as={ROUTES.home()} href={ROUTES.home()}>
+          <a>Home</a>
+        </Link> | &nbsp;
+        <Link as={ROUTES.blog()} href={ROUTES.blog()}>
+          <a>Blog</a>
+        </Link>
         <h1>{post.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.content }}></div>
       </article>
