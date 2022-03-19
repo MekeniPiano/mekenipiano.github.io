@@ -15,7 +15,7 @@ export default function Header() {
         </li>
         <li>
           <Link as={ROUTES.blog()} href={ROUTES.blog()}>
-            <a>Blog</a>
+            <a>Blogs</a>
           </Link>
         </li>
         <li>
